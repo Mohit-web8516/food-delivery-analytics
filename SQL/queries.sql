@@ -63,7 +63,7 @@ FROM Orders o
 JOIN Restaurants r ON o.RestaurantID = r.RestaurantID
 WHERE o.OrderStatus = 'Delivered'
 GROUP BY r.Cuisine
-ORDER BY TotalRevenue DESC;
+ORDER BY  TotalRevenue DESC;
 
 
 -- ============================================================
